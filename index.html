@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="./src/Css/style.css">
+    <link rel="shortcut icon" href="https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png" type="image/x-icon">
 </head>
 <body>
     <header class="contain_header">
         <nav class="contain_nav">
-            <a href="#Home">Home</a>
-            <a href="#About">About me</a>
+            <a href="#home">Home</a>
+            <a href="#about">About me</a>
             <a href="#abilities">My abilities</a>
-            <a href="#Experience">Experience</a>
-            <a href="#Porfolio">Porfolio</a>
-            <a href="#Contac">Contac</a>
+            <a href="#experience">Experience</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contac">Contac</a>
         </nav>
     </header>
     <main class="main_home" id="home">
@@ -23,14 +24,14 @@
         <p>Hola, soy Oliver</p>
         <h1>Diseñador y desarrollador wed</h1>
         <div class="contain_img">
-            <a href="https://www.linkedin.com/" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEoiwOqNX0bhKfKEEbZtsAYAu3ui0OzoaltQ&usqp=CAU"  alt="logo_linkedin"></a>
+            <a href="https://www.linkedin.com/" target="_blank"><img src="./src/icons/linkedin.svg"  alt="logo_linkedin"></a>
             
-            <a href="https://www.instagram.com/" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnenfYDNaTDjuRf1Ey2f49o6vxaJ7TyF7mkA&usqp=CAU" alt="logo_instagram"></a>
-            <a href="https://twitter.com/" target="_blank"><img src="https://w7.pngwing.com/pngs/595/477/png-transparent-twitter-logo-computer-icons-logo-twitter-miscellaneous-monochrome-computer-wallpaper.png" alt="logo_twitter"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="./src/icons/instagram.svg" alt="logo_instagram"></a>
+            <a href="https://twitter.com/" target="_blank"><img src="./src/icons/twitter.svg" alt="logo_twitter"></a>
             
         </div>
     </main>
-    <section class="About">
+    <section class="About" id="about">
         <h2>About Me</h2>
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime vel voluptatibus sit at quos voluptatem! Dicta distinctio officia error rem quae reprehenderit nisi totam excepturi ducimus, atque pariatur ipsum necessitatibus?
@@ -39,6 +40,65 @@
 
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis enim, vero pariatur nesciunt molestias ratione sint libero accusantium nemo at minus totam? Debitis delectus, eum repellendus modi nesciunt asperiores odit.
         </p>
+    </section>
+
+    <section class="contain_abilities" id="abilities">
+        <h2> My abilities</h2>
+        <div class="contain_icons">
+            <div class="text_img">
+                <img src="./src/icons/mobile.svg" alt="">
+                <p>Mobile app desing</p>
+            </div>
+            <div class="text_img">
+                <img src="./src/icons/motion.svg" alt="">
+                <p>Motion Design</p>
+            </div>
+            <div class="text_img">
+                <img src="./src/icons/material.svg" alt="">
+                <p>Creación de sistemas de diseño</p>
+            </div>
+            <div class="text_img">
+                <img src="./src/icons/web.svg" alt="">
+                <p>desarrollador wed</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contain_experience" id="experience">
+        <table class="default">
+            <caption>Experience</caption>
+            <tr  class="tab_tr">
+                <td>2016-2018</td>
+                <th><h4>Visual designer</h4>
+                    <p>Wizeline</p>
+                </th>
+            </tr>
+            <tr class="tab_tr">
+                <td>2018-2019</td>
+                <th><h4>Product designer</h4>
+                    <p>Microsof</p>
+                </th>
+            </tr>
+            <tr>
+                <td>2019-2021</td>
+                <th><h4>UI Engineer</h4>
+                    <p>Google</p>
+                </th>
+            </tr>
+        </table>
+
+
+    </section>
+
+    <section class="contain_portfolio" id="portfolio">
+
+        <h2>Portfolio</h2>
+        <div class="img_portfolio">
+            <img src="./src/images/ejemplo1.png" alt="">
+            <img src="./src/images/ejemplo2.png" alt="">
+            <img src="./src/images/ejemplo3.png" alt="">
+        </div>
+
     </section>
     
 </body>
