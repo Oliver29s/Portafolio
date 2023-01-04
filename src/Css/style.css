@@ -4,15 +4,12 @@
     --white--color:#FFFFFF;
 }
 
-
-
-
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    scroll-margin-top: 60px;
 }
 
 html{
@@ -32,6 +29,9 @@ html{
 .contain_nav{
     display: flex;
     gap: 0.5rem;
+    position: fixed;
+    width: 100%;
+    
 }
 
 .contain_nav > a{
