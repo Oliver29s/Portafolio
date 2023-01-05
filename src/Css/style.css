@@ -298,7 +298,7 @@ font-size: 50px;
         text-align: center;
     }
 
-    .contain_nav a:active{
+    .contain_nav a:hover {
         background-color: var(--white--color);
         color: var(--black--color);
         padding: 0.2rem;
@@ -309,6 +309,9 @@ font-size: 50px;
         width: 100%;
         border-radius: 1.5rem;
     }
-    
+    .img_portfolio > img:hover{
+        
+        box-shadow: 1px 5px 5px 0 white;
+    }
 }
 
