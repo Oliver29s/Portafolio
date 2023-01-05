@@ -47,6 +47,8 @@ html{
     .contain_nav_hide{
         right: -100px;
     }
+
+    
 }
 
 
@@ -219,6 +221,7 @@ font-size: 50px;
 
 .img_portfolio > img{
     width: 100%;
+    
 }
 
 
@@ -301,5 +304,11 @@ font-size: 50px;
         padding: 0.2rem;
         border-radius: 1rem;
     }
+
+    .img_portfolio > img{
+        width: 100%;
+        border-radius: 1.5rem;
+    }
+    
 }
 
