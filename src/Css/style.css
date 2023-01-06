@@ -51,15 +51,9 @@ html{
         left:25px;
         transition: 1s;
     }
-
-    
 }
 
-
-
-
 .main_home{
-    
     background-color:var(--black--color);
     min-height: 85vh;
     display: flex;
@@ -95,7 +89,6 @@ html{
     text-align: center;
     font-size: 40px;
     margin-bottom: 2rem;
-    
 }
 
 .contain_img{
@@ -128,7 +121,6 @@ font-size: 50px;
 }
 
 /* Style abilities */
-
 .contain_abilities{
     background-color: var(--black--color);
     height: 100vh;
@@ -137,9 +129,7 @@ font-size: 50px;
     align-items: center;
     padding: 1.5rem;
     color: var(--white--color);
-    
 }
-
 
 .contain_abilities > h2{
     font-size: 45px;
@@ -183,15 +173,14 @@ font-size: 50px;
     max-width: 600px;
     margin-top: 2rem;
     width: 70%;
-   
 }
+
 .contain_experience > tr,td, p{
     color: var(--grey--color);
 }
 
 
 /* Style portfolio */
-
 .contain_portfolio{
     min-height: 100vh;
     background-color: var(--black--color);
@@ -201,14 +190,11 @@ font-size: 50px;
     width: 100%;
     align-items: center;
     overflow-x: hidden;
-    
 }
-
 
 .contain_portfolio > h2{
     color: var(--white--color);
     margin-left: 1rem;
-    
 }
 
 .img_portfolio{
@@ -220,24 +206,19 @@ font-size: 50px;
     align-items: center;
     padding: 1rem;
     gap: 2rem;
-    
 }
 
 .img_portfolio > img{
     width: 100%;
-    
 }
 
 
 /* style contac */
-
-
 .contain_contac{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1.5rem;
     padding: 1rem;
-
 }
 
 .contain_contac > h2{
@@ -297,7 +278,6 @@ font-size: 50px;
         grid-template-columns: repeat(3,1fr);
         max-width: 1000px;
     }
-
     .contain_contac h2{
         text-align: center;
     }
@@ -313,6 +293,7 @@ font-size: 50px;
         width: 100%;
         border-radius: 1.5rem;
     }
+
     .img_portfolio > img:hover{
         cursor: pointer;
         box-shadow: 1px 5px 5px 0 white;
