@@ -3,7 +3,7 @@
     --grey--color:#ADADAD;
     --white--color:#FFFFFF;
 }
-
+/* style white mode */
 *{
     margin: 0;
     padding: 0;
@@ -20,7 +20,7 @@ html{
 .contain_header{
     position: sticky;
     top: 0;
-    min-height: 10vh;
+    min-height: 11vh;
     padding: 1rem;
     background-color: black;
     
@@ -35,7 +35,10 @@ html{
         flex-direction: column;
         gap: 1rem;
         position: absolute;
-        
+        left: -120px;
+        background-color: var(--grey--color);
+        padding: 1rem;
+        border-radius: 1rem;
     }
     
     .contain_nav > a{
@@ -45,7 +48,8 @@ html{
     }
 
     .contain_nav_hide{
-        right: -100px;
+        left:25px;
+        transition: 1s;
     }
 
     
@@ -310,7 +314,7 @@ font-size: 50px;
         border-radius: 1.5rem;
     }
     .img_portfolio > img:hover{
-        
+        cursor: pointer;
         box-shadow: 1px 5px 5px 0 white;
     }
 }
