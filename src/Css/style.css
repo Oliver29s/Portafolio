@@ -16,6 +16,17 @@ html{
     scroll-behavior: smooth;
 }
 
+.div_img{
+    max-height: 8vh;
+}
+
+
+.div_img > img {
+    width: 60px;
+    height: 60px;
+    max-height: 10%;
+    border-radius: 50%;
+}
 /* Styles Home */
 .contain_header{
     position: sticky;
@@ -35,21 +46,22 @@ html{
         flex-direction: column;
         gap: 1rem;
         position: absolute;
-        left: -120px;
         background-color: var(--grey--color);
         padding: 1rem;
         border-radius: 1rem;
+        transform: translateX(-120%);
+        transition: 1s;
     }
     
     .contain_nav > a{
-        text-decoration: none;
+    text-decoration: none;
        color:var(--white--color);
        font-size: 16px;
     }
 
     .contain_nav_hide{
-        left:25px;
-        transition: 1s;
+        transform: translateX(0);
+       
     }
 }
 
