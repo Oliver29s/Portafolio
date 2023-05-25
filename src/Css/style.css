@@ -255,7 +255,7 @@ font-size: 50px;
     gap: 2rem;
 }
 
-.img_portfolio > img{
+.img_portfolio > a > img{
     width: 100%;
     border-radius: 1rem;
 }
@@ -327,7 +327,8 @@ font-size: 50px;
     
     .img_portfolio{
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(2,1fr);
+        min-height: 20vh;
         max-width: 1000px;
     }
     .contain_contac h2{
@@ -340,15 +341,20 @@ font-size: 50px;
         padding: 0.2rem;
         border-radius: 1rem;
     }
-
-    .img_portfolio > img{
-        width: 100%;
-        border-radius: 1.5rem;
+    .img_portfolios{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img_portfolios img{
+        width: 300px;
     }
 
-    .img_portfolio > img:hover{
+
+
+    .img_portfolio > a > img:hover{
         cursor: pointer;
-        box-shadow: 1px 5px 5px 0 white;
+        transform: scale(1.1);
     }
 
     .contain_portfolio > h2{
