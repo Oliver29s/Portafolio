@@ -42,10 +42,36 @@ html{
     min-height: 11vh;
     padding: 1rem;
     background-color: black;
-   
+}
+
+.contain__tecnologias{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    max-width: 326px;
+
+}
+.logo__tecnologias{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo__tecnologias > img{
+    width: 150px;
+    height: 150px;
+    border-radius: 1rem;
     
 }
 
+.left{
+    
+}
+
+.rigth{
+    
+}
 @media (max-width: 700px) {
     .div_img {
         display: block;
