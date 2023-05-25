@@ -65,13 +65,8 @@ html{
     
 }
 
-.left{
     
-}
 
-.rigth{
-    
-}
 @media (max-width: 700px) {
     .div_img {
         display: block;
@@ -262,6 +257,7 @@ font-size: 50px;
 
 .img_portfolio > img{
     width: 100%;
+    border-radius: 1rem;
 }
 
 
