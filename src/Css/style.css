@@ -50,6 +50,9 @@ html{
     grid-template-columns: 1fr 1fr;
     gap: 0.5rem;
     max-width: 326px;
+    padding: 0.5rem;
+    background-color: #6a6c6c;
+    border-radius: 1rem;
 
 }
 .logo__tecnologias{
